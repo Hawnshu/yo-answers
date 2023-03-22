@@ -1,0 +1,15 @@
+```
+Download dvwa from github:
+https://github.com/digininja/DVWA
+
+Extract the downloaded zip file and put it in C:/xampp/htdocs
+open the dvwa folder -> Go to config and change the file extension to php
+now open the php file and change dbs_user to root and remove the password
+
+now start xampp server go to sql and create a database named dvwa
+Now go to localhost:8080/DVWA-masters/
+set dvwa security to low
+Click on Create/Reset Database and click on create
+Now click on SQL injection and input 1 and click submit.. you'll get first and last name of user is 1
+Now second step, type a' or ''='
+```
