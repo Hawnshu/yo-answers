@@ -31,7 +31,7 @@ db.Staff.find()
 
 
 
-############ Code 1 #############
+############ Code 2 #############
 
 db.Student.insertMany([{RollNo: 1, Name: "John Doe", Class: "10th", TotalMarks: 450},
 {RollNo: 2, Name: "Jane Smith", Class: "11th", TotalMarks: 475},
